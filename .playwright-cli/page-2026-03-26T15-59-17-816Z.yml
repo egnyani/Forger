@@ -1,0 +1,15 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]: ResumeForge
+      - button "Download PDF" [disabled] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Job Description
+        - paragraph [ref=e9]: Paste a job description to tailor your resume
+        - textbox "Paste job description here..." [active] [ref=e10]: We are looking for a Senior Backend Engineer to join our platform team. You will design and build high-throughput REST and GraphQL APIs using Python and FastAPI. Experience with PostgreSQL, Redis, and message queues (Kafka or SQS) is required. You should be comfortable with Docker, Kubernetes, and AWS. CI/CD experience with GitHub Actions is a plus. We value clean code, observability, and systems that scale.
+        - button "Generate Tailored Resume" [ref=e11] [cursor=pointer]
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - paragraph [ref=e16]: Your tailored resume will appear here
+  - alert [ref=e17]

@@ -1,0 +1,5 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [active] [ref=e4]: We are looking for a Senior Backend Engineer to join our platform team. Updated text for reset check.
+    - button "Tailor Resume" [ref=e10] [cursor=pointer]
+  - alert [ref=e8]

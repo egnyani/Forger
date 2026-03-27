@@ -1,0 +1,119 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are looking for a Senior AI Engineer to join our ML Platform team. You will build and scale LLM-powered applications, RAG pipelines, and embedding-based retrieval systems. Strong Python skills required. Experience with LangChain, FAISS, vector databases, and OpenAI APIs is essential. You should be comfortable deploying on AWS or Azure with Docker and Kubernetes. FastAPI experience is a plus.
+    - generic [ref=e5]:
+      - button "Tailor Resume" [ref=e10] [cursor=pointer]
+      - button "Download PDF" [ref=e11] [cursor=pointer]
+  - generic [ref=e7]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: 95%
+        - generic [ref=e15]: ATS Match Score
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Matched Keywords" [level=3] [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e20]: AI Engineer
+            - generic [ref=e21]: LLM-powered applications
+            - generic [ref=e22]: RAG pipelines
+            - generic [ref=e23]: embedding-based retrieval systems
+            - generic [ref=e24]: Python
+            - generic [ref=e25]: LangChain
+            - generic [ref=e26]: FAISS
+            - generic [ref=e27]: OpenAI APIs
+            - generic [ref=e28]: AWS
+            - generic [ref=e29]: Azure
+            - generic [ref=e30]: Docker
+            - generic [ref=e31]: Kubernetes
+            - generic [ref=e32]: FastAPI
+        - generic [ref=e33]:
+          - heading "Missing Keywords" [level=3] [ref=e34]
+          - generic [ref=e36]: vector databases
+      - generic [ref=e37]:
+        - heading "Suggestions" [level=3] [ref=e38]
+        - list [ref=e39]:
+          - listitem [ref=e40]: Highlight any specific experience or projects involving vector databases.
+          - listitem [ref=e41]: Emphasize leadership or senior-level responsibilities in your previous roles.
+          - listitem [ref=e42]: Clarify any experience in building and scaling AI platforms to strengthen your case for a Senior AI Engineer position.
+    - generic [ref=e43]:
+      - heading "Gnyani Enugandula" [level=1] [ref=e44]
+      - paragraph [ref=e45]: +1 (315) 766-9099 | gnyenug@gmail.com | linkedin.com/in/gnyani-enugandula-6a0149262
+      - separator [ref=e46]
+      - generic [ref=e47]:
+        - heading "Summary" [level=2] [ref=e48]
+        - list [ref=e49]:
+          - listitem [ref=e50]: AI Engineer and Backend Developer with 2+ years of experience specializing in LLM-powered applications, RAG pipelines, and embedding-based retrieval systems.
+          - listitem [ref=e51]: Proficient in Python and FastAPI, with expertise in LangChain, FAISS, and OpenAI APIs, contributing to the implementation of advanced AI applications.
+          - listitem [ref=e52]: Experienced in deploying solutions on AWS and Azure environments using Docker and Kubernetes for robust, scalable deployments.
+          - listitem [ref=e53]: Demonstrated track record of improving system reliability and reducing deployment times through efficient CI/CD pipelines and automated testing frameworks.
+      - generic [ref=e54]:
+        - heading "Experience" [level=2] [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Software Developer — RELI GROUP INC.
+            - generic [ref=e59]: Oct 2025 – Present
+          - paragraph [ref=e60]: Syracuse, NY
+          - list [ref=e61]:
+            - listitem [ref=e62]: Architected large-scale AI automation ecosystems integrating predictive analytics and RAG pipelines, accelerating business-intelligence delivery to latency-sensitive applications.
+            - listitem [ref=e63]: Engineered microservice platforms using Python, FastAPI, SQL, Docker, and AWS EKS, optimizing data pipelines for multi-million-record workloads with response times under 300ms.
+            - listitem [ref=e64]: Implemented enterprise-level RAG pipelines utilizing FAISS, LangChain, and LLM APIs, achieving 90%+ precision in contextual retrieval for contract analytics.
+            - listitem [ref=e65]: Enhanced system reliability through Prometheus and Grafana, reducing incident response times by 40% and boosting service uptime to 99.99%.
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Software Developer Intern — RELI GROUP INC.
+            - generic [ref=e69]: Feb 2025 – Sept 2025
+          - paragraph [ref=e70]: Syracuse, NY
+          - list [ref=e71]:
+            - listitem [ref=e72]: Conceived and deployed a Skills Intelligence Platform using FastAPI, React.js, and Docker, adopted by 2,000+ employees, cutting manual allocation time by 60%.
+            - listitem [ref=e73]: Spearheaded Contract Intelligence Platform design with Spring Boot and Hugging Face Transformers, delivering 1,000+ document inferences/day and reducing query latency by 70%.
+            - listitem [ref=e74]: Devised multi-agent RAG architecture with FAISS and LangChain, achieving 89% top-3 recall, enhancing bid-win probability and proposal velocity.
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: Software Engineer — ACMESIA CONSULTANTS LLP
+            - generic [ref=e78]: May 2022 – July 2024
+          - paragraph [ref=e79]: Mumbai, India
+          - list [ref=e80]:
+            - listitem [ref=e81]: Led end-to-end delivery of a cloud-native client portal with Flask/Django and MongoDB, reducing operational latency by 70%.
+            - listitem [ref=e82]: Developed Node.js microservices with PostgreSQL, incorporating message queues for sub-100ms response times on executive dashboards.
+            - listitem [ref=e83]: Orchestrated AWS Lambda serverless environment with API Gateway and RDS, ensuring 99.9% uptime and 30% cost savings via elastic scaling.
+      - generic [ref=e84]:
+        - heading "Education" [level=2] [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]: M.S. in Information Systems — Syracuse University
+          - generic [ref=e88]: Aug 2023 – May 2025
+        - generic [ref=e89]:
+          - generic [ref=e90]: B.E. in Electronics Engineering — Mumbai University
+          - generic [ref=e91]: Aug 2019 – May 2023
+      - generic [ref=e92]:
+        - heading "Skills" [level=2] [ref=e93]
+        - generic [ref=e94]:
+          - generic [ref=e95]: AI / ML Integration
+          - generic [ref=e96]: LangChain, FAISS, Hugging Face, PyTorch, OpenAI API, spaCy, NLP Pipelines, RAG, Embeddings, Feature Engineering, A/B Testing, Model Deployment, Ranking Logic, NumPy, Pandas, ETL, GenAI
+        - generic [ref=e97]:
+          - generic [ref=e98]: Backend Technologies
+          - generic [ref=e99]: Python, Node.js, FastAPI, Flask, Django, Spring Boot, Express.js, REST APIs, GraphQL, Microservices, Apache Kafka, Redis, PostgreSQL, MySQL, MongoDB, DynamoDB, Cassandra, Oracle, Asynchronous Processing, Message Queues
+        - generic [ref=e100]:
+          - generic [ref=e101]: Cloud Platforms
+          - generic [ref=e102]: AWS (Lambda, ECS, EKS, API Gateway, SQS, CloudWatch, IAM, S3, RDS), Azure (AKS, SQL), Docker, Kubernetes, GitHub Actions, Jenkins, Prometheus, Grafana, CI/CD Pipelines, Serverless Architecture, Load Balancing, Auto Scaling
+        - generic [ref=e103]:
+          - generic [ref=e104]: Frontend Technologies
+          - generic [ref=e105]: ReactJS, Next.js, JavaScript, TypeScript, HTML, CSS, Redux, Material UI, Webpack, Jest
+        - generic [ref=e106]:
+          - generic [ref=e107]: Languages
+          - generic [ref=e108]: Python, JavaScript, TypeScript, Java, Go, SQL, C/C++, C#, PHP, Ruby
+        - generic [ref=e109]:
+          - generic [ref=e110]: Testing & Automation
+          - generic [ref=e111]: Unit Testing, Integration Testing, API Testing, End-to-End Testing, Git, GitHub Actions, Jenkins, JUnit, Mockito, Agile/Scrum, Release Validation
+        - generic [ref=e112]:
+          - generic [ref=e113]: Developer Tools
+          - generic [ref=e114]: Visual Studio, VS Code, IntelliJ, Eclipse, Android Studio, Database Indexing, Query Optimization, Database Migrations
+      - generic [ref=e115]:
+        - heading "Projects" [level=2] [ref=e116]
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Predictive System Monitoring with AI
+            - generic [ref=e120]: December 2025
+          - list [ref=e121]:
+            - listitem [ref=e122]: Developed an AI-driven monitoring platform to predict infrastructure failures by analyzing logs, metrics, and user behavior, leveraging Kafka, Spark, and AWS Kinesis for real-time data processing.
+            - listitem [ref=e123]: Implemented ML models for anomaly detection and time-series forecasting and built Grafana/Prometheus dashboards to deliver actionable reliability insights.
+  - alert [ref=e8]

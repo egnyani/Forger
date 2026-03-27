@@ -1,0 +1,11 @@
+[   47968ms] [ERROR] TypeError: Failed to fetch
+    at downloadPdf (http://localhost:3003/_next/static/chunks/app/preview/page-721e032194c0b0b1.js:1:4408)
+    at onClick (http://localhost:3003/_next/static/chunks/app/preview/page-721e032194c0b0b1.js:1:478)
+    at Object.a_ (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:72144)
+    at aR (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:72298)
+    at http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:139237
+    at sF (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:139336)
+    at sM (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:139750)
+    at http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:145893
+    at o4 (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:93333)
+    at iV (http://localhost:3003/_next/static/chunks/fd9d1056-3eee857bde8f3b06.js:1:122698) @ http://localhost:3003/_next/static/chunks/117-e6f8effb6353785e.js:0

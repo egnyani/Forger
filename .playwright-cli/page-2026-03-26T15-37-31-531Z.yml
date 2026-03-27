@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are looking for a Senior Backend Engineer to join our platform team. You will design and build high-throughput REST and GraphQL APIs using Python and FastAPI. Experience with PostgreSQL, Redis, and message queues (Kafka or SQS) is required. You should be comfortable with Docker, Kubernetes, and AWS. CI/CD experience with GitHub Actions is a plus. We value clean code, observability, and systems that scale.
+    - button "Tailoring resume..." [disabled] [ref=e9]
+  - alert [ref=e8]

@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are hiring a Senior Software Engineer for College Board's Technology Division. You will build advanced, modern, cloud native software for education platforms used at global scale. Strong experience with JavaScript, TypeScript, React, Node.js, and AWS is required. You will work in an agile environment, use serverless technologies, and help deliver reliable products for students, educators, and partners.
+    - button "Tailoring resume..." [disabled] [ref=e9]
+  - alert [ref=e8]

@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Dev Links" [level=1] [ref=e4]
+      - generic [ref=e5]:
+        - link "→ /preview" [ref=e6] [cursor=pointer]:
+          - /url: /preview
+        - link "→ /preview/test" [ref=e7] [cursor=pointer]:
+          - /url: /preview/test
+        - link "→ /preview/tailor-test" [ref=e8] [cursor=pointer]:
+          - /url: /preview/tailor-test
+  - alert [ref=e9]

@@ -1,0 +1,114 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are hiring a Senior Software Engineer for College Board's Technology Division. You will build advanced, modern, cloud native software for education platforms used at global scale. Strong experience with JavaScript, TypeScript, React, Node.js, and AWS is required. You will work in an agile environment, use serverless technologies, and help deliver reliable products for students, educators, and partners.
+    - generic [ref=e5]:
+      - button "Tailor Resume" [ref=e10] [cursor=pointer]
+      - button "Download PDF" [ref=e11] [cursor=pointer]
+  - generic [ref=e7]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: 85%
+        - generic [ref=e15]: ATS Match Score
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Matched Keywords" [level=3] [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e20]: JavaScript
+            - generic [ref=e21]: TypeScript
+            - generic [ref=e22]: React
+            - generic [ref=e23]: Node.js
+            - generic [ref=e24]: AWS
+            - generic [ref=e25]: cloud-native
+            - generic [ref=e26]: education platforms
+            - generic [ref=e27]: agile environment
+            - generic [ref=e28]: serverless technologies
+        - generic [ref=e29]:
+          - heading "Missing Keywords" [level=3] [ref=e30]
+          - generic [ref=e31]:
+            - generic [ref=e32]: Senior Software Engineer
+            - generic [ref=e33]: College Board
+            - generic [ref=e34]: global scale
+      - generic [ref=e35]:
+        - heading "Suggestions" [level=3] [ref=e36]
+        - list [ref=e37]:
+          - listitem [ref=e38]: Emphasize experience with building software at a global scale.
+          - listitem [ref=e39]: Highlight any leadership or senior responsibilities handled in previous roles.
+          - listitem [ref=e40]: Mention experience working with education platforms, specifically if related to College Board.
+    - generic [ref=e41]:
+      - heading "Gnyani Enugandula" [level=1] [ref=e42]
+      - paragraph [ref=e43]: Syracuse, NY | +1 (315) 766-9099 | gnyenug@gmail.com | linkedin.com/in/gnyani-enugandula-6a0149262
+      - separator [ref=e44]
+      - generic [ref=e45]:
+        - heading "Summary" [level=2] [ref=e46]
+        - list [ref=e47]:
+          - listitem [ref=e48]: AI Engineer and Backend Developer with 2+ years of experience specializing in React, Node.js, and AWS deployed at scale on cloud-native education platforms.
+          - listitem [ref=e49]: Proficient in JavaScript and TypeScript with expertise in developing dynamic web applications using ReactJS and Node.js, ensuring high availability and scalability.
+          - listitem [ref=e50]: Experienced in leveraging AWS services such as Lambda, API Gateway, S3, and RDS for deploying serverless applications in agile environments.
+          - listitem [ref=e51]: Dedicated to enhancing educational outcomes through reliable, high-impact technology solutions that streamline operations and improve user experiences.
+      - generic [ref=e52]:
+        - heading "Experience" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: Software Developer — RELI GROUP INC.
+            - generic [ref=e57]: Oct 2025 – Present
+          - paragraph [ref=e58]: Syracuse, NY
+          - list [ref=e59]:
+            - listitem [ref=e60]
+            - listitem [ref=e61]
+            - listitem [ref=e62]
+            - listitem [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: Software Developer Intern — RELI GROUP INC.
+            - generic [ref=e67]: Feb 2025 – Sept 2025
+          - paragraph [ref=e68]: Syracuse, NY
+          - list [ref=e69]:
+            - listitem [ref=e70]
+            - listitem [ref=e71]
+            - listitem [ref=e72]
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]: Software Engineer — ACMESIA CONSULTANTS LLP
+            - generic [ref=e76]: May 2022 – July 2024
+          - paragraph [ref=e77]: Mumbai, India
+          - list [ref=e78]:
+            - listitem [ref=e79]
+            - listitem [ref=e80]
+            - listitem [ref=e81]
+      - generic [ref=e82]:
+        - heading "Education" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: M.S. in Information Systems — Syracuse University
+            - generic [ref=e87]: Aug 2023 – May 2025
+          - paragraph [ref=e88]: Syracuse, NY
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: B.E. in Electronics Engineering — Mumbai University
+            - generic [ref=e92]: Aug 2019 – May 2023
+          - paragraph [ref=e93]: Mumbai, India
+      - generic [ref=e94]:
+        - heading "Skills" [level=2] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e97]: Frontend Technologies
+          - generic [ref=e98]: ReactJS, Next.js, JavaScript, TypeScript, HTML, CSS, Redux, Material UI, Webpack, Jest
+        - generic [ref=e99]:
+          - generic [ref=e100]: Backend Technologies
+          - generic [ref=e101]: Node.js, Python, FastAPI, Flask, Django, Spring Boot, Express.js, REST APIs, GraphQL, Microservices, Apache Kafka, Redis, PostgreSQL, MySQL, MongoDB, DynamoDB, Cassandra, Oracle, Asynchronous Processing, Message Queues
+        - generic [ref=e102]:
+          - generic [ref=e103]: Cloud Platforms
+          - generic [ref=e104]: AWS (Lambda, ECS, EKS, API Gateway, SQS, CloudWatch, IAM, S3, RDS), Azure (AKS, SQL), Docker, Kubernetes, GitHub Actions, Jenkins, Prometheus, Grafana, CI/CD Pipelines, Serverless Architecture, Load Balancing, Auto Scaling
+        - generic [ref=e105]:
+          - generic [ref=e106]: AI / ML Integration
+          - generic [ref=e107]: LangChain, FAISS, Hugging Face, PyTorch, OpenAI API, spaCy, NLP Pipelines, RAG, Embeddings, Feature Engineering, A/B Testing, Model Deployment, Ranking Logic, NumPy, Pandas, ETL, GenAI
+        - generic [ref=e108]:
+          - generic [ref=e109]: Languages
+          - generic [ref=e110]: JavaScript, Python, TypeScript, Java, Go, SQL, C/C++, C#, PHP, Ruby
+        - generic [ref=e111]:
+          - generic [ref=e112]: Testing & Automation
+          - generic [ref=e113]: Unit Testing, Integration Testing, API Testing, End-to-End Testing, Git, GitHub Actions, Jenkins, JUnit, Mockito, Agile/Scrum, Release Validation
+        - generic [ref=e114]:
+          - generic [ref=e115]: Developer Tools
+          - generic [ref=e116]: Visual Studio, VS Code, IntelliJ, Eclipse, Android Studio, Database Indexing, Query Optimization, Database Migrations
+      - heading "Projects" [level=2] [ref=e118]
+  - alert [ref=e8]

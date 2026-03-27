@@ -1,0 +1,63 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are looking for a Senior Backend Engineer to join our platform team. You will design and build high-throughput REST and GraphQL APIs using Python and FastAPI. Experience with PostgreSQL, Redis, and message queues (Kafka or SQS) is required. You should be comfortable with Docker, Kubernetes, and AWS. CI/CD experience with GitHub Actions is a plus. We value clean code, observability, and systems that scale.
+    - generic [ref=e5]:
+      - button "Tailor Resume" [ref=e10] [cursor=pointer]
+      - button "Download PDF" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - heading "Gnyani Enugandula" [level=1] [ref=e13]
+    - paragraph [ref=e14]: +1 (315) 766-9099 | gnyenug@gmail.com | linkedin.com/in/gnyani-enugandula-6a0149262 | github.com/gnyani
+    - separator [ref=e15]
+    - generic [ref=e16]:
+      - heading "Summary" [level=2] [ref=e17]
+      - paragraph [ref=e18]: Experienced Backend Engineer specializing in designing scalable REST and GraphQL APIs using Python and FastAPI. Proficient in working with PostgreSQL, Redis, Docker, Kubernetes, and AWS to build high-throughput systems. Skilled in implementing CI/CD pipelines with GitHub Actions and enhancing system observability for seamless operations.
+    - generic [ref=e19]:
+      - heading "Experience" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Software Developer — RELI Group Inc.
+          - generic [ref=e24]: Oct 2025 – Present
+        - paragraph [ref=e25]: Syracuse, NY
+        - list [ref=e26]:
+          - listitem [ref=e27]: Engineered production-grade microservice platforms using Python, FastAPI, SQL, Docker, and AWS EKS, focusing on API design and data modeling to enable horizontally scalable, low-latency data pipelines handling multi-million-record workloads with response times under 300ms.
+          - listitem [ref=e28]: Drove system reliability and observability initiatives via Prometheus, Grafana, and CloudWatch, cutting incident response times by 40%, boosting service uptime to 99.99%, and improving developer feedback loops through automated release validation.
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: Software Developer Intern — RELI Group Inc.
+          - generic [ref=e32]: Feb 2025 – Sept 2025
+        - paragraph [ref=e33]: Syracuse, NY
+        - list [ref=e34]:
+          - listitem [ref=e35]: Spearheaded design of a Contract Intelligence Platform leveraging Spring Boot, Redis, Kafka, and Hugging Face Transformers, delivering over 1,000 real-time document inferences/day while reducing query latency by 70%.
+          - listitem [ref=e36]: Established container-native CI/CD pipelines through GitHub Actions and Jenkins, enabling zero-downtime deployments and proactive telemetry on Azure Kubernetes Service (AKS) with IAM-based access controls.
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: Software Engineer — Acmesia Consultants LLP
+          - generic [ref=e40]: May 2022 – July 2024
+        - paragraph [ref=e41]: Mumbai, India
+        - list [ref=e42]:
+          - listitem [ref=e43]: Developed high-throughput Node.js microservices backed by PostgreSQL, implementing message queues and asynchronous processing to achieve sub-100ms response times for analytics dashboards.
+          - listitem [ref=e44]: Orchestrated a serverless computing environment on AWS Lambda, API Gateway, S3, and RDS with auto-scaling and load balancing, guaranteeing 99.9% uptime while lowering infrastructure spend by 30%.
+    - generic [ref=e45]:
+      - heading "Education" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]: M.S. in Information Systems — Syracuse University
+        - generic [ref=e49]: Aug 2023 – May 2025
+      - generic [ref=e50]:
+        - generic [ref=e51]: B.E. in Electronics Engineering — Mumbai University
+        - generic [ref=e52]: Aug 2019 – May 2023
+    - generic [ref=e53]:
+      - heading "Skills" [level=2] [ref=e54]
+      - generic [ref=e55]:
+        - generic [ref=e56]: Backend
+        - generic [ref=e57]: FastAPI, Node.js, Spring Boot, Flask, Django, Express.js, GraphQL, Kafka, Redis, PostgreSQL, MongoDB, DynamoDB
+      - generic [ref=e58]:
+        - generic [ref=e59]: Cloud / DevOps
+        - generic [ref=e60]: Docker, Kubernetes, AWS (EKS, Lambda, S3, RDS, CloudWatch, API Gateway), Azure (AKS, SQL), GitHub Actions, Jenkins, Prometheus, Grafana
+      - generic [ref=e61]:
+        - generic [ref=e62]: AI / ML
+        - generic [ref=e63]: LangChain, FAISS, Hugging Face, OpenAI API, spaCy, NLP Pipelines, RAG, Embeddings
+      - generic [ref=e64]:
+        - generic [ref=e65]: Languages
+        - generic [ref=e66]: Python, JavaScript, TypeScript, Java, Go, SQL, C++, Ruby, PHP
+    - heading "Projects" [level=2] [ref=e68]
+  - alert [ref=e8]

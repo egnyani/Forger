@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch
+content-disposition: attachment; filename="resume.pdf"
+content-type: application/pdf
+Date: Thu, 26 Mar 2026 15:20:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+

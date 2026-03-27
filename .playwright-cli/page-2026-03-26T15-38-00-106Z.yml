@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are looking for a Senior Backend Engineer to join our platform team. You will design and build high-throughput REST and GraphQL APIs using Python and FastAPI. Experience with PostgreSQL, Redis, and message queues (Kafka or SQS) is required. You should be comfortable with Docker, Kubernetes, and AWS. CI/CD experience with GitHub Actions is a plus. We value clean code, observability, and systems that scale.
+    - generic [ref=e5]:
+      - button "Tailor Resume" [ref=e10] [cursor=pointer]
+      - button "Download PDF" [ref=e11] [cursor=pointer]
+  - generic [ref=e7]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: 90%
+        - generic [ref=e15]: ATS Match Score
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Matched Keywords" [level=3] [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e20]: high-throughput REST and GraphQL APIs
+            - generic [ref=e21]: Python
+            - generic [ref=e22]: FastAPI
+            - generic [ref=e23]: PostgreSQL
+            - generic [ref=e24]: Redis
+            - generic [ref=e25]: Kafka
+            - generic [ref=e26]: Docker
+            - generic [ref=e27]: Kubernetes
+            - generic [ref=e28]: AWS
+            - generic [ref=e29]: GitHub Actions
+            - generic [ref=e30]: clean code
+            - generic [ref=e31]: observability
+            - generic [ref=e32]: systems that scale
+        - generic [ref=e33]:
+          - heading "Missing Keywords" [level=3] [ref=e34]
+          - generic [ref=e36]: SQS
+      - generic [ref=e37]:
+        - heading "Suggestions" [level=3] [ref=e38]
+        - list [ref=e39]:
+          - listitem [ref=e40]: Add experience or knowledge related to SQS.
+          - listitem [ref=e41]: Highlight experience or specific projects related to AWS S3 or RDS to emphasize AWS capability.
+          - listitem [ref=e42]: Detail any leadership or mentoring roles to enhance suitability for a senior position.
+    - generic [ref=e43]:
+      - heading "Gnyani Enugandula" [level=1] [ref=e44]
+      - paragraph [ref=e45]: +1 (315) 766-9099 | gnyenug@gmail.com | linkedin.com/in/gnyani-enugandula-6a0149262 | github.com/gnyani
+      - separator [ref=e46]
+      - generic [ref=e47]:
+        - heading "Summary" [level=2] [ref=e48]
+        - paragraph [ref=e49]: Experienced Backend Engineer specializing in designing and building high-throughput REST and GraphQL APIs using Python and FastAPI. Proficient with PostgreSQL, Redis, and message queues such as Kafka, complemented by hands-on experience with Docker, Kubernetes, and AWS. Dedicated to writing clean code, enhancing system observability, and ensuring scalable systems, with a strong background in CI/CD practices through GitHub Actions.
+      - generic [ref=e50]:
+        - heading "Experience" [level=2] [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Software Developer — RELI Group Inc.
+            - generic [ref=e55]: Oct 2025 – Present
+          - paragraph [ref=e56]: Syracuse, NY
+          - list [ref=e57]:
+            - listitem [ref=e58]: Engineered production-grade microservice platforms using Python, FastAPI, SQL, Docker, and AWS EKS, focusing on API design and data modeling for horizontally scalable, low-latency data pipelines handling large-scale workloads.
+            - listitem [ref=e59]: Drove system reliability and observability via Prometheus, Grafana, and CloudWatch, cutting incident response times by 40% and improving uptime to 99.99% through advanced monitoring and alerting.
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: Software Developer Intern — RELI Group Inc.
+            - generic [ref=e63]: Feb 2025 – Sept 2025
+          - paragraph [ref=e64]: Syracuse, NY
+          - list [ref=e65]:
+            - listitem [ref=e66]: Designed a Contract Intelligence Platform leveraging Spring Boot, Redis, Kafka, and Hugging Face Transformers to facilitate over 1,000 real-time document inferences per day with significantly reduced query latency.
+            - listitem [ref=e67]: Established container-native CI/CD pipelines through GitHub Actions and Jenkins, enabling zero-downtime deployments and enhanced telemetry on Azure Kubernetes Service (AKS).
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Software Engineer — Acmesia Consultants LLP
+            - generic [ref=e71]: May 2022 – July 2024
+          - paragraph [ref=e72]: Mumbai, India
+          - list [ref=e73]:
+            - listitem [ref=e74]: Developed high-throughput Node.js microservices with PostgreSQL, utilizing message queues and asynchronous processing to achieve sub-100ms response times for analytics dashboards.
+            - listitem [ref=e75]: Spearheaded DevOps practices through Agile, TDD, and enhanced CI/CD pipelines, accelerating feature delivery by 45% through comprehensive testing and performance tuning.
+      - generic [ref=e76]:
+        - heading "Education" [level=2] [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]: M.S. in Information Systems — Syracuse University
+          - generic [ref=e80]: Aug 2023 – May 2025
+        - generic [ref=e81]:
+          - generic [ref=e82]: B.E. in Electronics Engineering — Mumbai University
+          - generic [ref=e83]: Aug 2019 – May 2023
+      - generic [ref=e84]:
+        - heading "Skills" [level=2] [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]: Backend
+          - generic [ref=e88]: Python, FastAPI, Node.js, Spring Boot, Django, Flask, PostgreSQL, Redis, GraphQL, Kafka
+        - generic [ref=e89]:
+          - generic [ref=e90]: Cloud / DevOps
+          - generic [ref=e91]: Docker, Kubernetes, AWS (EKS, Lambda, S3, RDS, CloudWatch, API Gateway), Azure (AKS, SQL), GitHub Actions, Jenkins, Prometheus, Grafana
+        - generic [ref=e92]:
+          - generic [ref=e93]: AI / ML
+          - generic [ref=e94]: LangChain, FAISS, Hugging Face, OpenAI API, spaCy, RAG, Embeddings
+        - generic [ref=e95]:
+          - generic [ref=e96]: Languages
+          - generic [ref=e97]: JavaScript, TypeScript, Java, Go, SQL, C++, Ruby, PHP
+      - heading "Projects" [level=2] [ref=e99]
+  - alert [ref=e8]

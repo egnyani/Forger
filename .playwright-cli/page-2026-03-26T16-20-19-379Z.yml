@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - textbox "Paste a job description here to test the tailor API..." [ref=e4]: We are looking for a Senior AI Engineer to join our ML Platform team. You will build and scale LLM-powered applications, RAG pipelines, and embedding-based retrieval systems. Strong Python skills required. Experience with LangChain, FAISS, vector databases, and OpenAI APIs is essential. You should be comfortable deploying on AWS or Azure with Docker and Kubernetes. FastAPI experience is a plus.
+    - button "Tailoring resume..." [disabled] [ref=e9]
+  - alert [ref=e8]

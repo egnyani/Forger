@@ -1,0 +1,15 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]: ResumeForge
+      - button "Download PDF" [disabled] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]: Job Description
+        - paragraph [ref=e9]: Paste a job description to tailor your resume
+        - textbox "Paste job description here..." [active] [ref=e10]: Updated JD to verify reset behavior.
+        - button "Generate Tailored Resume" [ref=e127] [cursor=pointer]
+      - generic [ref=e14]:
+        - img [ref=e146]
+        - paragraph [ref=e149]: Your tailored resume will appear here
+  - alert [ref=e19]

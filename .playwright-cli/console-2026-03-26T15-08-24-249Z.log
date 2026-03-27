@@ -1,0 +1,3 @@
+[    7211ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/api/export-pdf:0
+[    7212ms] [ERROR] Error: Export failed
+    at handleDownload (webpack-internal:///(app-pages-browser)/./app/preview/page.tsx:31:37) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32

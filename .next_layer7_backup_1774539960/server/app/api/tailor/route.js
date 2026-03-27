@@ -1,0 +1,54 @@
+"use strict";(()=>{var e={};e.id=607,e.ids=[607],e.modules={399:e=>{e.exports=require("next/dist/compiled/next-server/app-page.runtime.prod.js")},517:e=>{e.exports=require("next/dist/compiled/next-server/app-route.runtime.prod.js")},7950:(e,t,a)=>{a.r(t),a.d(t,{originalPathname:()=>S,patchFetch:()=>b,requestAsyncStorage:()=>m,routeModule:()=>g,serverHooks:()=>h,staticGenerationAsyncStorage:()=>y});var n={};a.r(n),a.d(n,{POST:()=>u,runtime:()=>d});var i=a(9303),r=a(8716),s=a(670),o=a(1664),l=a(2223);let c=JSON.parse('{"contact":{"name":"Gnyani Enugandula","phone":"+1 (315) 766-9099","email":"gnyenug@gmail.com","linkedin":"linkedin.com/in/gnyani-enugandula-6a0149262","github":"github.com/gnyani"},"summary":"AI Engineer and Backend Developer with 2+ years of experience designing and deploying production-grade AI systems, including LLM-powered applications, RAG pipelines, and embeddings-based retrieval platforms. Strong background in Python and FastAPI, with hands-on experience in API design, data modeling, and building compliance intelligence systems, semantic search, and AI-assisted decision flows using LangChain, FAISS, Hugging Face, and spaCy. Experienced in deploying AI services on AWS and Azure, optimizing inference latency for high-traffic applications, and shipping reliable systems through CI/CD automation.","experience":[{"id":"reli-sde","company":"RELI Group Inc.","title":"Software Developer","location":"Syracuse, NY","start":"Oct 2025","end":"Present","bullets":[{"id":"reli-sde-1","text":"Architecting large-scale AI automation ecosystems supporting multi-team operations, integrating predictive analytics, semantic search, and real-time workflow orchestration to accelerate business-intelligence delivery across latency-sensitive applications.","tags":["AI","semantic search","orchestration","analytics"]},{"id":"reli-sde-2","text":"Engineering production-grade microservice platforms using Python, FastAPI, SQL, Docker, and AWS EKS, with a focus on API design and data modeling to enable horizontally scalable, low-latency data pipelines handling multi-million-record workloads with response times under 300ms.","tags":["Python","FastAPI","Docker","AWS","microservices","API"]},{"id":"reli-sde-3","text":"Implementing enterprise-level RAG pipelines powered by FAISS, LangChain, and LLM APIs, with confidence-based safety fallbacks achieving near-real-time contextual retrieval with 90%+ precision on contract analytics.","tags":["RAG","FAISS","LangChain","LLM","AI"]},{"id":"reli-sde-4","text":"Driving system reliability and observability initiatives via Prometheus, Grafana, and CloudWatch, cutting incident response times by 40%, boosting service uptime to 99.99%, and improving developer feedback loops through automated release validation.","tags":["observability","Prometheus","Grafana","CloudWatch","reliability"]}]},{"id":"reli-intern","company":"RELI Group Inc.","title":"Software Developer Intern","location":"Syracuse, NY","start":"Feb 2025","end":"Sept 2025","bullets":[{"id":"reli-intern-1","text":"Conceived and deployed a full-stack Skills Intelligence Platform (FastAPI, React.js, Azure SQL, Docker) adopted by 2,000+ employees, automating talent discovery and slashing manual allocation time by 60%.","tags":["FastAPI","React","Azure","Docker","full-stack"]},{"id":"reli-intern-2","text":"Spearheaded design of a Contract Intelligence Platform leveraging Spring Boot, Redis, Kafka, and Hugging Face Transformers, delivering 1,000+ real-time document inferences/day while reducing query latency by 70%.","tags":["Kafka","Redis","Hugging Face","NLP","real-time"]},{"id":"reli-intern-3","text":"Devised and productionized a multi-agent RAG architecture (FAISS, Sentence Transformers, LangChain, OpenAI API) achieving 89% top-3 recall, directly elevating bid-win probability and proposal velocity.","tags":["RAG","multi-agent","LangChain","OpenAI","FAISS"]},{"id":"reli-intern-4","text":"Established container-native CI/CD pipelines through GitHub Actions and Jenkins, enabling zero-downtime deployments and proactive telemetry on Azure Kubernetes Service (AKS) with IAM-based access controls.","tags":["CI/CD","GitHub Actions","Jenkins","Kubernetes","Azure"]}]},{"id":"acmesia","company":"Acmesia Consultants LLP","title":"Software Engineer","location":"Mumbai, India","start":"May 2022","end":"July 2024","bullets":[{"id":"acmesia-1","text":"Led end-to-end architecture and delivery of a cloud-native client portal (Flask/Django, React.js, MongoDB), automating manual workflows and cutting operational latency by 70%.","tags":["Flask","Django","React","MongoDB","cloud"]},{"id":"acmesia-2","text":"Developed high-throughput Node.js microservices backed by PostgreSQL, implementing message queues and asynchronous processing to achieve sub-100ms response times for analytics dashboards.","tags":["Node.js","PostgreSQL","microservices","async"]},{"id":"acmesia-3","text":"Orchestrated a serverless computing environment on AWS Lambda, API Gateway, S3, and RDS with auto-scaling and load balancing, guaranteeing 99.9% uptime while lowering infrastructure spend by 30%.","tags":["AWS Lambda","serverless","S3","RDS","cost optimization"]},{"id":"acmesia-4","text":"Spearheaded DevOps excellence through Agile, TDD, and performance-tuning sprints, hardening CI/CD pipelines with unit, integration, and end-to-end testing, accelerating feature delivery velocity by 45%.","tags":["DevOps","TDD","Agile","CI/CD","testing"]}]}],"education":[{"degree":"M.S. in Information Systems","school":"Syracuse University","location":"Syracuse, NY","start":"Aug 2023","end":"May 2025"},{"degree":"B.E. in Electronics Engineering","school":"Mumbai University","location":"Mumbai, India","start":"Aug 2019","end":"May 2023"}],"skills":{"Languages":["Python","JavaScript","TypeScript","Java","Go","SQL","C++","Ruby","PHP"],"AI / ML":["LangChain","FAISS","Hugging Face","PyTorch","OpenAI API","spaCy","NLP Pipelines","RAG","Embeddings"],"Backend":["FastAPI","Flask","Django","Node.js","Express.js","Spring Boot","GraphQL","Kafka","Redis","PostgreSQL","MongoDB","DynamoDB"],"Cloud / DevOps":["AWS (EKS, Lambda, S3, RDS, CloudWatch, API Gateway)","Azure (AKS, SQL)","Docker","Kubernetes","GitHub Actions","Jenkins","Prometheus","Grafana"]},"projects":[{"id":"predictive-monitoring","name":"Predictive System Monitoring with AI","date":"December 2025","bullets":["Developed an AI-driven monitoring platform to predict infrastructure failures by analyzing logs, metrics, and user behavior, leveraging Kafka, Spark, and AWS Kinesis for real-time data processing.","Implemented ML models for anomaly detection and time-series forecasting and built Grafana/Prometheus dashboards to deliver actionable reliability insights."],"tags":["Kafka","Spark","AWS","ML","anomaly detection","monitoring"]}]}'),d="nodejs",p=new o.ZP;async function u(e){try{let t=await e.json(),a=t.jobDescription?.trim();if(!a)return new Response(JSON.stringify({error:"jobDescription is required"}),{status:400,headers:{"Content-Type":"application/json"}});let n=await p.chat.completions.create({model:"gpt-4o",max_tokens:4096,response_format:{type:"json_object"},messages:[{role:"system",content:"You are an expert resume writer. You return only valid JSON."},{role:"user",content:(0,l.j)(JSON.stringify(c,null,2),a)}]}),i=n.choices[0]?.message?.content??"",r=i.replace(/^```json\n?/,"").replace(/\n?```$/,"").trim();try{let e=JSON.parse(r);if(!(e&&"object"==typeof e&&e.contact&&"string"==typeof e.summary&&Array.isArray(e.experience)&&Array.isArray(e.education)&&e.skills&&"object"==typeof e.skills&&Array.isArray(e.projects)))return new Response(JSON.stringify({error:"OpenAI returned invalid JSON",raw:i}),{status:500,headers:{"Content-Type":"application/json"}});return new Response(JSON.stringify({data:e}),{headers:{"Content-Type":"application/json"}})}catch{return new Response(JSON.stringify({error:"OpenAI returned invalid JSON",raw:i}),{status:500,headers:{"Content-Type":"application/json"}})}}catch(e){return new Response(JSON.stringify({error:e instanceof Error?e.message:"Unknown error"}),{status:500,headers:{"Content-Type":"application/json"}})}}let g=new i.AppRouteRouteModule({definition:{kind:r.x.APP_ROUTE,page:"/api/tailor/route",pathname:"/api/tailor",filename:"route",bundlePath:"app/api/tailor/route"},resolvedPagePath:"/Users/gnyaniwork/Documents/ResumeForge/app/api/tailor/route.ts",nextConfigOutput:"",userland:n}),{requestAsyncStorage:m,staticGenerationAsyncStorage:y,serverHooks:h}=g,S="/api/tailor/route";function b(){return(0,s.patchFetch)({serverHooks:h,staticGenerationAsyncStorage:y})}},2223:(e,t,a)=>{a.d(t,{j:()=>n,m:()=>i});let n=(e,t)=>`
+You are an expert resume writer and ATS optimization specialist.
+
+You will receive a master resume as JSON and a job description.
+Your task is to return a tailored version of the resume JSON that maximizes 
+ATS match for this specific job.
+
+RULES:
+1. Only use content that exists in the master resume JSON. Do not invent new 
+   experience, credentials, or skills that are not already present.
+2. You MAY rewrite bullet text to mirror the job description language and keywords, 
+   as long as the underlying fact remains true and accurate.
+3. Select the most relevant bullets for each role. You do not need to include all 
+   bullets — pick the ones most relevant to the JD. Include at least 2 bullets 
+   per role.
+4. Rewrite the summary to speak directly to this specific role. 3–4 sentences max.
+5. Reorder the skills categories to put the most JD-relevant categories first. 
+   Within each category, put the most relevant skills first.
+6. Include a project only if it is relevant to the JD. It is acceptable to return 
+   an empty projects array if nothing is relevant.
+7. Keep all contact and education fields exactly as they are in the source JSON.
+8. Return ONLY a valid JSON object matching the source schema exactly.
+   No markdown fences, no explanation text, no comments. Raw JSON only.
+
+MASTER RESUME JSON:
+${e}
+
+JOB DESCRIPTION:
+${t}
+`,i=(e,t)=>`
+You are an ATS (Applicant Tracking System) analyzer.
+
+Compare the resume text against the job description and return a JSON object 
+with exactly this shape:
+{
+  "score": <number 0–100>,
+  "matched_keywords": [<string>, ...],
+  "missing_keywords": [<string>, ...],
+  "suggestions": [<string>, ...]
+}
+
+- score: overall ATS match percentage as an integer
+- matched_keywords: important keywords/phrases from the JD present in the resume
+- missing_keywords: important keywords/phrases from the JD absent from the resume
+- suggestions: exactly 3 specific actionable suggestions to improve the score
+
+Return ONLY valid JSON. No markdown fences, no explanation. Raw JSON only.
+
+RESUME TEXT:
+${e}
+
+JOB DESCRIPTION:
+${t}
+`}};var t=require("../../../webpack-runtime.js");t.C(e);var a=e=>t(t.s=e),n=t.X(0,[948,822],()=>a(7950));module.exports=n})();
