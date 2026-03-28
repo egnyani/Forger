@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { ResumeTemplate } from "@/components/ResumeTemplate";
 import { ScoreCard } from "@/components/ScoreCard";
-import { resumeToText } from "@/lib/resumeToText";
+import { resumeToText } from "@/lib/engine/resumeToText";
 import type { ATSScore, ResumeData } from "@/lib/types";
 import { useDownloadPdf } from "@/lib/useDownloadPdf";
 
@@ -23,10 +23,24 @@ export default function TailorTestPage() {
     setAtsScore(null);
 
     try {
-      const response = await fetch("/api/tailor", {
+      const keywordResponse = await fetch("/api/extract-keywords", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ jobDescription }),
+      });
+
+      if (!keywordResponse.ok) {
+        throw new Error(await keywordResponse.text());
+      }
+
+      const { keywords } = (await keywordResponse.json()) as {
+        keywords: string[];
+      };
+
+      const response = await fetch("/api/tailor", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ jobDescription, keywords }),
       });
 
       if (!response.ok) {
@@ -42,7 +56,7 @@ export default function TailorTestPage() {
       const scoreResponse = await fetch("/api/score", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ resumeText, jobDescription }),
+        body: JSON.stringify({ resumeText, keywords }),
       });
 
       if (!scoreResponse.ok) {

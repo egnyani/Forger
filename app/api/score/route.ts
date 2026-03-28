@@ -1,11 +1,5 @@
-import OpenAI from "openai";
-
-import { SCORE_PROMPT } from "@/lib/prompts";
+import { scoreResumeAgainstKeywords } from "@/lib/engine/keywordUtils";
 import type { ATSScore } from "@/lib/types";
-
-export const runtime = "nodejs";
-
-const client = new OpenAI();
 
 function isATSScore(value: unknown): value is ATSScore {
   if (!value || typeof value !== "object") return false;
@@ -24,47 +18,31 @@ export async function POST(request: Request) {
   try {
     const body = (await request.json()) as {
       resumeText?: string;
-      jobDescription?: string;
+      keywords?: string[];
     };
     const resumeText = body.resumeText?.trim();
-    const jobDescription = body.jobDescription?.trim();
+    const keywords = body.keywords?.filter(
+      (keyword): keyword is string =>
+        typeof keyword === "string" && keyword.trim().length > 0,
+    );
 
-    if (!resumeText || !jobDescription) {
+    if (!resumeText || !keywords || keywords.length === 0) {
       return new Response(
-        JSON.stringify({ error: "resumeText and jobDescription are required" }),
+        JSON.stringify({ error: "resumeText and keywords are required" }),
         {
           status: 400,
           headers: { "Content-Type": "application/json" },
         },
       );
     }
-
-    const completion = await client.chat.completions.create({
-      model: "gpt-4o",
-      max_tokens: 1024,
-      response_format: { type: "json_object" },
-      messages: [
-        {
-          role: "system",
-          content: "You are an ATS analyzer. You return only valid JSON.",
-        },
-        {
-          role: "user",
-          content: SCORE_PROMPT(resumeText, jobDescription),
-        },
-      ],
-    });
-
-    const raw = completion.choices[0]?.message?.content ?? "";
-    const cleaned = raw
-      .replace(/^```json\n?/, "")
-      .replace(/\n?```$/, "")
-      .trim();
-    const atsScore = JSON.parse(cleaned) as ATSScore;
+    const atsScore = scoreResumeAgainstKeywords(
+      resumeText,
+      keywords,
+    ) as ATSScore;
 
     if (!isATSScore(atsScore)) {
       return new Response(
-        JSON.stringify({ error: "Invalid score response shape", raw }),
+        JSON.stringify({ error: "Invalid score response shape" }),
         {
           status: 500,
           headers: { "Content-Type": "application/json" },

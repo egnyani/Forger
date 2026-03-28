@@ -1,7 +1,7 @@
 "use client";
 
 import { ResumeTemplate } from "@/components/ResumeTemplate";
-import resume from "@/lib/resume.json";
+import resume from "@/lib/engine/resume.json";
 import type { ResumeData } from "@/lib/types";
 import { useDownloadPdf } from "@/lib/useDownloadPdf";
 

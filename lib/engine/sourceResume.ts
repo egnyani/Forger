@@ -3,8 +3,8 @@ import { existsSync } from "node:fs";
 
 import mammoth from "mammoth";
 
-import resumeJson from "@/lib/resume.json";
-import { resumeToText } from "@/lib/resumeToText";
+import resumeJson from "@/lib/engine/resume.json";
+import { resumeToText } from "@/lib/engine/resumeToText";
 import type { Experience, Project, ResumeData } from "@/lib/types";
 
 const SOURCE_RESUME_DOCX_CANDIDATES = [

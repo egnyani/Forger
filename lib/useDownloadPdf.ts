@@ -7,7 +7,7 @@ import type { ResumeData } from "@/lib/types";
 export function useDownloadPdf() {
   const [loading, setLoading] = useState(false);
 
-  async function downloadPdf(data: ResumeData) {
+  async function downloadPdf(data: ResumeData, filename = "resume.pdf") {
     setLoading(true);
     try {
       const response = await fetch("/api/export-pdf", {
@@ -20,7 +20,7 @@ export function useDownloadPdf() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "resume.pdf";
+      a.download = filename;
       a.click();
       URL.revokeObjectURL(url);
     } catch (err) {

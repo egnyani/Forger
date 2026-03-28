@@ -7,7 +7,7 @@
     "github": "github.com/egnyani"
   },
   "summary": [
-    "AI-focused Software Engineer with around 2 years of experience delivering production software across Python backends and React-heavy frontends, spanning consumer marketplaces, enterprise platforms, and financial systems.",
+    "AI-focused Software Engineer with 2+ years of experience delivering production software across Python backends and React-heavy frontends, spanning consumer marketplaces, enterprise platforms, and financial systems.",
     "Strong backend focus on API design, data modeling, and real-time workflows, using PostgreSQL, DynamoDB, and AWS to support high-traffic, latency-sensitive applications.",
     "Hands-on experience applying GenAI in production, including LLM-based classification, RAG pipelines, and AI-assisted decision flows, integrated into real business processes.",
     "Proven ability to ship reliable systems through CI/CD automation, cloud deployment, and monitoring, improving release speed, system stability, and developer feedback loops."
@@ -69,10 +69,10 @@
     },
     {
       "degree": "Bachelor of Engineering in Electronics Engineering",
-      "school": "Mumbai University",
+      "school": "Mumbai University -- Ramrao Adik Institute of Technology",
       "location": "Mumbai, India",
-      "start": "Aug 2018",
-      "end": "Jul 2022"
+      "start": "Aug 2019",
+      "end": "Jul 2023"
     }
   ],
   "skills": {
@@ -81,7 +81,7 @@
     "Database Management": ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis", "NoSQL Concepts", "Data Modeling", "Database Indexing", "Query Optimization", "Database Migrations", "ETL"],
     "Cloud Platforms": ["AWS (Lambda, ECS, API Gateway, SQS, CloudWatch, IAM)", "Docker", "Containerization", "Serverless Deployments", "Load Balancing", "Auto Scaling", "CI/CD Pipelines"],
     "AI / ML Integration": ["NumPy", "Pandas", "PyTorch", "LangChain", "LLM APIs", "Text Embeddings", "Retrieval-Augmented Generation (RAG)", "Ranking Logic", "Feature Engineering", "WebSockets"],
-    "Testing and Automation": ["Unit Testing", "Integration Testing", "API Testing", "End-to-End Testing", "Git", "GitHub Actions", "Jenkins", "CI/CD Automation", "Jira", "Agile/Scrum"]
+    "Testing and Automation": ["Unit Testing", "Integration Testing", "API Testing", "End-to-End Testing", "Automated Testing", "Reliable Releases", "Git", "GitHub Actions", "Jenkins", "CI/CD Automation", "Jira", "Agile/Scrum"]
   },
   "projects": []
 }

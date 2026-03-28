@@ -270,7 +270,7 @@ export const projectHeaderRowStyle: CSSProperties = {
 };
 
 export const projectNameStyle: CSSProperties = {
-  fontSize: "10px",
+  fontSize: "10.5pt",
   fontWeight: 700,
   color: "#000000",
 };
