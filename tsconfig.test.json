@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2017",
+    "isolatedModules": false,
+    "noEmit": false,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", ".next"]
+}

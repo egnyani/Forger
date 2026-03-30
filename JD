@@ -1,5 +1,5 @@
-Associate Software Engineer - .Net
-@ Ensora Health
+Software Engineer Apprentice – Fraud Prevention Systems
+@ Jack Henry
 View All Jobs
 
 Website
@@ -7,11 +7,11 @@ United States
 Remote
 Full Time
 Responsibilities:
-design features, write queries, collaborate teams
+Deliver backend, Develop features, Collaborate closely
 Requirements Summary:
-Bachelor's in CS/Engineering or related field; 1+ years of software development experience with .NET/C# and PostgreSQL.
+Must have basic programming concepts, motivation to learn, knowledge of at least one modern language, strong problem solving, communication, and collaboration skills for agile teams.
 Technical Tools Mentioned:
-.NET, C#, PostgreSQL, SQL, Entity Framework, RESTful APIs, Git, Docker, AWS, Azure, XUnit/NUnit/MSTest, React/Angular/Blazor
+Node.js, TypeScript, REST API, PostgreSQL, MySQL, Spanner, GCP, AWS, Azure, Git, Jira
 
 Apply now
 Save
@@ -21,63 +21,38 @@ Report & Hide
 Job Description
 
 Copy Job Description
-Ensora Health is the leading provider of software and services for mental and behavioral health therapists, trusted by over 200,000 individual providers and more than 28,000 practices.  Our unmatched expertise, partnership, and breadth of products allow us to fine-tune solutions that meet the specific needs of everyone from solo practitioners to larger practices. With AI-enabled solutions that span practice management to electronic medical records and e-prescribing to billing, we help eliminate administrative complexity and create harmony between therapists, their clients, and the whole healthcare community.
+At Jack Henry, we’re more than a technology company. We’re a force for good in financial services. We’re redefining how community banks and credit unions connect with the people they serve. Our mission is rooted in people‑inspired innovation, empowering financial institutions to deliver seamless, secure, and human‑centered experiences. We deliver cutting‑edge solutions paving the way for the next generation of digital banking and payments, but our true impact begins with our associates.
+If you're ready to help transform an industry and grow with a company that values purpose, collaboration, and excellence, then we’d love to meet you.
 
-Job Description
+What You’ll Be Doing
+The Software Engineer Apprentice will join Team ATOM, the group responsible for delivering backend services that help financial institutions detect and prevent fraudulent activity. As an apprentice, you’ll support the development of new features for the Jack Henry Intercept platform and assist in debugging and maintaining production services.
+This role offers hands‑on engineering experience, ongoing mentorship from senior engineers, and meaningful work on systems that protect financial institutions and their accountholders.
+This position may be worked remotely within the United States, with the exception of California.
 
-We are seeking an Associate Software Engineer with a strong foundation in .NET, C#, and PostgreSQL to contribute to the design, development, and maintenance of enterprise applications. The ideal candidate has early professional experience building back‑end services, integrating APIs, and working with relational databases, and is eager to continue developing their technical skills. This role involves collaborating closely with cross‑functional teams and learning from senior engineers to deliver high‑quality, maintainable software that supports business needs.
-Key Responsibilities
+What you’ll be responsible for
+Deliver new backend features for the Jack Henry Intercept fraud‑detection product.
+Assist in debugging and supporting production services, ensuring stability and reliability.
+Collaborate closely with a team of four engineers and two contractors, frequently working in paired development.
+Ask questions, stay curious, and actively engage with your mentor and teammates.
+Participate in code reviews and contribute to improving team processes and service quality.
+Take ownership of assigned tasks and follow them through to completion.
+May perform other job duties as assigned.
 
-Design, develop, test, and deploy application features using .NET (Core and/or Framework) and C# with guidance from senior engineers.
+What You’ll Need to Have
+All apprentice candidates must:
+Be able to work in the U.S. without sponsorship now or in the future.
+Meet all legal requirements to work in the U.S. for an indefinite period of time.
+Have basic exposure to programming concepts through coursework, self‑directed learning, bootcamps, or personal projects.
+Demonstrate strong motivation to learn technical skills within a structured training environment.
+Show foundational familiarity with at least one modern programming language (e.g., JavaScript/TypeScript, Python, Java, Go, C#, or C++).
+Possess solid problem‑solving, communication, and collaboration skills appropriate for an agile team setting.
+Have a basic understanding of introductory computer science concepts (e.g., scripting, databases, or general software fundamentals).
 
-Write and maintain efficient SQL queries, stored procedures, and database objects in PostgreSQL or equivalent relational databases, following established patterns and standards.
-
-Contribute to scalable software solutions by applying modern design patterns and best practices within existing architectures.
-
-Collaborate with product managers, QA engineers, and other developers in an Agile/Scrum environment to deliver sprint commitments.
-
-Participate in code reviews by submitting quality code, responding to feedback, and learning established coding standards and practices.
-
-Integrate application components with third‑party APIs and internal services under guidance.
-
-Assist with troubleshooting issues, investigating defects, and helping improve application performance and reliability.
-
-Participate in technical discussions and learn about architectural decisions affecting the system.
-
-Maintain and update technical documentation related to code changes, features, and processes.
-
-Required Qualifications
-
-Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent practical experience).
-
-1+ years of professional software development experience, including internships, co‑ops, or strong academic projects, with exposure to .NET technologies.
-
-Preferred Qualifications
-Familiarity with Scrum or other Agile methodologies, with an interest in learning team processes and ceremonies.
-
-Exposure to automated testing and an understanding of the importance of test coverage and reliable releases.
-
-Basic knowledge of containerization concepts (e.g., Docker) and awareness of microservices architecture.
-
-Some front‑end experience or coursework using React, Angular, or Blazor is a plus.
-
-Familiarity with unit testing frameworks such as xUnit, NUnit, or MSTest.
-
-Exposure to PHP through professional experience, academic projects, or personal development work is a plus.
-
-Working knowledge of C#, ASP.NET Core / MVC / Web API, and familiarity with Entity Framework (Core or EF6).
-
-Exposure to AI‑assisted development tools (such as GitHub Copilot) or a demonstrated interest in using modern tools to improve productivity and code quality.
-
-Foundational experience working with PostgreSQL or other relational databases, including writing queries and understanding basic performance considerations.
-
-Experience consuming and integrating RESTful APIs.
-
-Familiarity with version control systems (Git preferred) and basic CI/CD concepts.
-
-Solid understanding of object‑oriented programming (OOP) principles and awareness of common design patterns.
-
-Exposure to cloud platforms such as AWS or Azure through coursework, projects, or early professional experience.
-
-Strong problem‑solving, debugging, and analytical skills, with a willingness to learn and grow.
-
+What Would Be Nice for You to Have (Preferred Qualifications)
+Experience with Node.js or TypeScript.
+Ability to build or contribute to REST API services.
+Experience working with relational databases such as Postgres, MySQL, or Spanner.
+Exposure to cloud development in GCP, AWS, or Azure.
+Foundational experience in backend or object‑oriented programming.
+Familiarity with version control tools such as Git/GitHub and Agile workflow tools (e.g., Jira).
+Demonstrated interest in fintech, digital assets, Web3, or emerging technology trends.
