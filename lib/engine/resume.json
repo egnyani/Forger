@@ -1,10 +1,10 @@
 {
   "contact": {
-    "name": "Gnyani Enugandula",
-    "phone": "+1 (315) 766-9099",
-    "email": "gnyenug@gmail.com",
-    "linkedin": "linkedin.com/in/gnyani-enugandula-6a0149262",
-    "github": "github.com/egnyani"
+    "name": "Your Name",
+    "phone": "+1 (555) 000-0000",
+    "email": "your.email@example.com",
+    "linkedin": "linkedin.com/in/your-linkedin-profile",
+    "github": "github.com/your-github-username"
   },
   "summary": [
     "AI-focused Software Engineer with 2+ years of experience delivering production software across Python backends and React-heavy frontends, spanning consumer marketplaces, enterprise platforms, and financial systems.",
